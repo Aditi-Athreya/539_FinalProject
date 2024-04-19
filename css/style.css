@@ -135,3 +135,13 @@ p {
 .card:hover .info-card {
   display: block; /* Show info-cards on hover */
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  ul {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
+    grid-gap: 20px; /* Adjusted grid-gap value */
+  }
+}
+
+
